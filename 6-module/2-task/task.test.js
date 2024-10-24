@@ -40,7 +40,7 @@ describe('6-module-2-task', () => {
       let expectedImageSrc = `/assets/images/products/${product.image}`;
 
       let isCorrectSource = actualImageSrc.includes(expectedImageSrc);
-
+      
       expect(isCorrectSource).toBe(true);
     });
 
